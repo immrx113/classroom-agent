@@ -1,0 +1,49 @@
+# 本地凭据
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node / 构建
+node_modules/
+dist/
+build/
+*.tsbuildinfo
+
+# 运行数据、日志与本机工具状态
+runtime/
+backend/uploads/
+backend/uploads_*/
+*.log
+*.sqlite3
+*.sqlite3-*
+*.dump
+*.backup
+.agents/
+.codex/
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# 验收原始资料含本机路径、资源标识或供应商日志，保留在本机
+docs/classroom-agent/acceptance/
+docs/classroom-agent/reset-v1/evidence/
+docs/classroom-agent/trial-materials/*.wav
+docs/classroom-agent/trial-materials/*.mp3
+
+# 历史本机审计
+PROJECT_CLASSROOM_AUDIT.md
+PROJECT_DOCS.md
