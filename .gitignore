@@ -47,3 +47,6 @@ docs/classroom-agent/trial-materials/*.mp3
 # 历史本机审计
 PROJECT_CLASSROOM_AUDIT.md
 PROJECT_DOCS.md
+
+# 本机保留的旧版说明
+/README.local.md
